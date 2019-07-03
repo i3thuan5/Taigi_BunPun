@@ -1,6 +1,7 @@
 FROM i3thuan5/hok8-bu7
 
-RUN pip install hue7jip8
+# RUN pip install hue7jip8
+RUN pip install https://github.com/Taiwanese-Corpus/hue7jip8/archive/master.zip
 
 RUN python manage.py 教典詞條
 RUN python manage.py 教典例句
